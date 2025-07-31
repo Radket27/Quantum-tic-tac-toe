@@ -1,11 +1,11 @@
 # Quantum-tic-tac-toe
 ###  Tic tac toe with quantum random number generator
-This program works only with Qiskit installed, you can install Qiskit with 
+This program works only with Qiskit and Qiskit-aer installed.
 
 ```bash 
-pip install qiskit
+pip install -r requirements.txt
 ```
 
-After opening program you can choose game mode, because there is only single player mode to play you should click 1.\
-Now you can take your first move. On the board are numbers from 0 to 9 which correspond to places where you can take.\
-After your first move quantum random number generator choose another random place.
+After opening the program, you can choose a game mode (right now there is only single player mode available).\
+After choosing the game mode, you can make your first move. The board displays numbers from 0 to 9, each corresponding to a position where you can place an X.\
+After your move, a quantum random number generator selects another random position.

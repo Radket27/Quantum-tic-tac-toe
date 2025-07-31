@@ -3,8 +3,8 @@ def quantum_calculation():
     Quantum simulator that returns binary array
     """
     from qiskit import QuantumCircuit, transpile
-    from qiskit.providers.aer import QasmSimulator
-    simulator = QasmSimulator()
+    from qiskit_aer import AerSimulator
+    simulator = AerSimulator()
     k = []
     for x in range(4):
         circut = QuantumCircuit(1,1)
